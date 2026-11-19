@@ -11,17 +11,17 @@
 
 // export default App; //main recebe essa informação
 
+
 import { Navbar } from "./components/Navbar";
+import { Home } from "./pages/Home";
 
 function App(){
   return (
     <>
     <Navbar/>
-    <div className="container">
-      <h1>Catágolo</h1>
-    </div>
+    <Home/>
     </>
-  )
+  );
 
 }
 
